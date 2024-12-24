@@ -1,0 +1,28 @@
+1. Enunciado
+En esta práctica, desarrollarás un programa en Python que gestiona los productos,
+clientes y ventas de una tienda online. El programa persistirá la información en una
+base de datos SQLite y ofrecerá varias funcionalidades a través de una interfaz de
+consola. Además, implementarás manejo de errores y excepciones para garantizar un
+funcionamiento robusto.
+
+Requerimientos del Programa
+
+El programa debe cumplir con las siguientes funcionalidades:
+• Gestionar Productos, Clientes y Ventas:
+• Crear, modificar y consultar información de productos, clientes y ventas.
+• Consultas y Estadísticas:
+• Obtener los productos más vendidos.
+• Identificar a los clientes con mayor número de compras.
+• Identificar a los clientes que nunca han realizado una compra.
+• Calcular los ingresos totales obtenidos por ventas.
+• Persistencia de Datos:
+• Toda la información se debe almacenar y gestionar utilizando una base de
+datos SQLite.
+• Interfaz de Consola:
+• Todas las operaciones se realizarán a través de una interfaz de consola.
+
+Requerimientos de la implementación
+El programa debe estructurarse en al menos las clases de Producto, Cliente, Venta y
+SQLiteDataAccessObject. Esta ultima es la clase que se conecta a la base de datos
+gestiona los inserts, updates y selects. Las tres primeras clases nos servirán para
+representar en memoria dichas entidades.
